@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'Univers67CondensedBold';
+	src: url('/public/fonts/Univers67CondensedBold/univers-condensedbold-webfont.eot');
+	src: local('☺'), url('/public/fonts/Univers67CondensedBold/univers-condensedbold-webfont.woff') format('woff'), url('/public/fonts/Univers67CondensedBold/univers-condensedbold-webfont.ttf') format('truetype'), url('/public/fonts/Univers67CondensedBold/univers-condensedbold-webfont.svg#webfontDDyrCP1H') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body                    { font-family: 'Lucida Grande'; color: #222; /*background: #ddef66;*/ background: #fefefe; }
+div#outer_wrapper       { width: 1200px; margin: 0 auto; text-align: center; }
+div#wrapper             { text-align: left; }
+ 
+div#dashboard                       { height: 400px; width: 1200px; margin: 0; padding: 0; }
+div.action_graph_wrapper            { height: 200px; width: 288px; margin-left: 16px; padding: 0; float: left; }
+div#all_action_graphs               { margin-top: 1em; }
+div.action_graph_wrapper ul span    { background: #e0e0e0; }
+div#all_action_graphs :first-child  { margin-left: 0; }
+
+ul.graph                            { height: 100%; overflow: hidden; }
+.graph                              { /*background: url(/public/images/graph_bkgd.gif) top right;*/ }
+ul.graph li                         { width: 5px; margin: 0 1px 0 0; height: 100%; float: right; position: relative; background: none; overflow: hidden; }
+ul.graph li>span                    { display: block; text-indent: -999em; position: absolute; width: 5px; bottom: 0; right: 0; }
+ul.graph li>span span               { display: block; text-indent: -999em; float: right; width: 5px; background: rgba(100,255,20,0.5); }
