@@ -1,6 +1,4 @@
 var sys = require('sys');
-// var kiwi = require('kiwi');
-// var mongo = kiwi.require('mongodb-native');
 
 var Hit = require('./hit'),
     Action = require('./action'),

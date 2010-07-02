@@ -3,7 +3,6 @@ var sys = require('sys'),
 
 kiwi.require('express');
 
-// var mongo = kiwi.require('mongodb-native');
 var mongo = require('./lib/deps/mongodb-native/lib/mongodb/index');
 
 var Visit = require('./models/visit'),
