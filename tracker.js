@@ -1,9 +1,10 @@
 var sys = require('sys')
-    kiwi = require('kiwi'),
+    // kiwi = require('kiwi'),
     http = require('http');
 
 // kiwi.require('express');
-var mongo = kiwi.require('mongodb-native');
+// var mongo = kiwi.require('mongodb-native');
+var mongo = require('./lib/deps/mongodb-native/lib/mongodb/index');
 
 // require('./lib/class-inheritance');
 
