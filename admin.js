@@ -1,7 +1,6 @@
-var sys = require('sys'),
-    kiwi = require('kiwi');
+var sys = require('sys');
 
-kiwi.require('express');
+require('./lib/deps/express/lib/express');
 
 var mongo = require('./lib/deps/mongodb-native/lib/mongodb/index');
 
