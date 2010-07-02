@@ -4,3 +4,6 @@
 [submodule "lib/deps/mongodb-native"]
 	path = lib/deps/mongodb-native
 	url = http://github.com/christkv/node-mongodb-native.git
+[submodule "lib/deps/express"]
+	path = lib/deps/express
+	url = http://github.com/visionmedia/express.git
