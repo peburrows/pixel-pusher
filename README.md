@@ -1,0 +1,1 @@
+with a **HUGE** hat-tip and head-nod to <a href="http://mnutt.github.com/hummingbird/">Hummingbird</a> and <a href="http://github.com/mnutt/">mnutt</a>, think of this as a less Gilt-specific Hummingbird that has the capabilities to track and graph multiple apps at once.
