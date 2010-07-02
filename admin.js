@@ -1,8 +1,8 @@
 var sys = require('sys');
 
-require('./lib/deps/express/lib/express');
+var mongo = require('./lib/deps/mongodb-native/lib/mongodb');
 
-var mongo = require('./lib/deps/mongodb-native/lib/mongodb/index');
+require('./lib/deps/express/lib/express');
 
 var Visit = require('./models/visit'),
     Hit = require('./models/hit'),

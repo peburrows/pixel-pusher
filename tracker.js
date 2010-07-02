@@ -1,7 +1,7 @@
 var sys = require('sys'),
     http = require('http');
 
-var mongo = require('./lib/deps/mongodb-native/lib/mongodb/index');
+var mongo = require('./lib/deps/mongodb-native/lib/mongodb');
 
 var Visit     = require('./models/visit'),
     Hit       = require('./models/hit'),
